@@ -1,6 +1,7 @@
 pub mod bogo_sort;
 pub mod bubble_sort;
 pub mod cocktail_shaker;
+pub mod comb_sort;
 
 fn is_sorted<T: PartialOrd>(tab: &[T], len: usize) -> bool {
     for pos in 0..(len - 1) {
